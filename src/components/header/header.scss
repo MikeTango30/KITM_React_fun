@@ -1,11 +1,9 @@
 header {
+  box-shadow: -5px 9px 28px -8px rgba(41,36,41,0.59);
   display: flex;
-  flex-wrap: wrap;
   width: 100%;
   justify-content: center;
-  border-bottom: 1px solid #ccc;
-  h2 {
-    text-align: center;
-    width: 100%;
+  h1 {
+    font-size: 3rem;
   }
 }

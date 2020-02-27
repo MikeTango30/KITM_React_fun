@@ -4,8 +4,7 @@ import './header.scss';
 function Header() {
     return (
         <header>
-            <h2>A blog</h2>
-            <p>This is brand new beautiful react component.</p>
+            <h1>News</h1>
         </header>
     );
 }
