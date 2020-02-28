@@ -2,7 +2,18 @@ body {
   background-color: #eee;
 }
 .container {
+  position: relative;
   display: flex;
+  height: 100vh;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom:60px;
+}
+
+.container-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 80%;
+  list-style: none;
 }
